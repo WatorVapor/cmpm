@@ -1,5 +1,4 @@
-module;
-export module std.memory;
 #include <memory>
+export module std.memory;
 
-export std::allocator;
+//export std::allocator;

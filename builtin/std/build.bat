@@ -1,2 +1,2 @@
-clang++ -Wall -std=c++20 -c -Xclang -emit-module-interface memory.cpp -o memory.pcm
+clang++ -Wall -std=c++20  -fmodules-ts -Xclang -emit-module-interface -c stdio.cpp -o stdio.pcm
 pause
