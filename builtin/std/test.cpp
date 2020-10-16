@@ -1,5 +1,5 @@
 import stdio;
 int main(void ) {
-	printf_("hello world\n");
+	std::io::printf("hello world!!\n");
 	return 0;
 }
