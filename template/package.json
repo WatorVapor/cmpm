@@ -2,24 +2,32 @@
   "name": "template",
   "version": "1.0.0",
   "description": "c/c++ module package manager template",
-  "main": "main.cpp",
+  "main": "template.exe",
+  "head_c": [
+  ],
+  "head_cxx": [
+  ],
+  "source_c": [
+    "src/b.c"
+  ],
+  "source_cxx": [
+    "main.cpp",
+    "src/a.cpp"
+  ],
   "scripts": {
   },
   "dependencies": {
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WatorVapor/cmpm.git"
+    "url": ""
   },
   "keywords": [
-    "c++",
-    "p2p",
-    "messagequeue"
   ],
-  "author": "watorvapor",
-  "license": "ISC",
+  "author": "",
+  "license": "",
   "bugs": {
-    "url": "https://github.com/WatorVapor/cmpm"
+    "url": ""
   },
-  "homepage": "https://github.com/WatorVapor/cmpm"
+  "homepage": ""
 }
